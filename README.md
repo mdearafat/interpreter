@@ -10,7 +10,11 @@ Lexer: The Lexer class reads an input string and produces a stream of tokens.
 Parser: The Parser class takes a stream of tokens from a Lexer, and transforms them into an abstract syntax tree (AST).
 Interpreter: The Interpreter class is responsible for walking through the AST and performing the computations.
 
+# Requirements
+This project is implemented using Python 3. You must have Python 3 installed on your system to run the code in this repository.
+
 # How to Run
+You will need Python 3 to run this.
 Run: python main.py
 Then input your program.
 
@@ -27,6 +31,7 @@ z = ---(x+y);
 x = 1;
 y = 2;
 z = ---(x+y)*(x+-y);
+Please note that only integers are supported as data types. Each statement must end with a semicolon (;). Variables are assigned using the equals sign (=).
 
 # Language Specification
 The toy language consists of simple mathematical and assignment expressions. It supports addition, subtraction, multiplication, and parentheses for defining precedence.
