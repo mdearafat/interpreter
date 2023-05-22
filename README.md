@@ -15,7 +15,7 @@ This project is implemented using Python 3. You must have Python 3 installed on 
 
 # How to Run
 You will need Python 3 to run this.
-Run: python main.py
+Run: python main.py.
 Then input your program.
 
 # Sample Inputs
